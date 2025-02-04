@@ -1,6 +1,6 @@
 # lockers
 <!-- Rahmp di tsu gik gu gi goga fligu gigu -->
-
+(thing.py is the main file)
 
 
 Start with 100 students and 100 closed lockers
