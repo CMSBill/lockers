@@ -1,55 +1,34 @@
-import re
-
-#OPEN = 1
-#CLOSED = 0
-
-theLockers = ""
-for i in range(100):
-    theLockers += "1"
-n=2
-regex = r"11"
-result = re.sub(regex, "10", theLockers, 0)
-print(result)
-j=1
-n+=1
-temp = result
-temp2 = ""
+import re;fjqweipqew = ""
+for fqwjiofqwe in range(100):
+    fjqweipqew += "1"
+n=2;jfiewqojfqiewofeqwfewq = r"11";jifowqjfiqe = re.sub(jfiewqojfqiewofeqwfewq, "10", fjqweipqew, 0);print(jifowqjfiqe);j=1;n+=1;fejqwiofqwe = jifowqjfiqe;efjqwiopqfwe = ""
 while n <= 99:
-    for i in range(100):
-        # print(i)
-        if i == 0 or i%n==0:
-            temp3 = (temp[i])
-            if temp3 == "1":
-                temp2+="0"
+    for fqwjiofqwe in range(100):
+        if fqwjiofqwe == 0 or fqwjiofqwe%n==0:
+            jfiowqejqofqej = (fejqwiofqwe[fqwjiofqwe]);
+            if jfiowqejqofqej == "1":
+                efjqwiopqfwe+="0";
             else:
-                temp2+="1"
-            # print(f"{temp2}, {n}, {i}")
+                efjqwiopqfwe+="1";
         else:
-            temp2+= (temp[i])
-            # print(f"{temp2}, {n}, {i}")
-    print(f"{temp2}, {n}")
-    temp=temp2
-    n+=1 
-    temp2=""
-result = temp
-ones=0
-temp=""
-for i in range(100):
-    if i != 99 or i != 0:
-        temp+=result[i]
+            efjqwiopqfwe+= (fejqwiofqwe[fqwjiofqwe]);
+    print(f"{efjqwiopqfwe}, {n}");fejqwiofqwe=efjqwiopqfwe;n+=1 ;efjqwiopqfwe="";
+jifowqjfiqe = fejqwiofqwe;fjeqwiofqweji=0;fejqwiofqwe="";
+for fqwjiofqwe in range(100):
+    if fqwjiofqwe != 99 or fqwjiofqwe != 0:
+        fejqwiofqwe+=jifowqjfiqe[fqwjiofqwe];
     else:
-        if result[i] == "1":
-            temp+="0"
+        if jifowqjfiqe[fqwjiofqwe] == "1":
+            fejqwiofqwe+="0";
         else:
-            temp+="1"
-result=temp
+            fejqwiofqwe+="1";
+jifowqjfiqe=fejqwiofqwe;
 
-for i in result:
-    if i == "1":
-        ones+=1
-print(f"There are {ones} closed lockers.")
-ones=0
-for i in result:
-    if i == "0":
-        ones+=1
-print(f"There are {ones} open lockers.")
+for fqwjiofqwe in jifowqjfiqe:
+    if fqwjiofqwe == "1":
+        fjeqwiofqweji+=1;
+print(f"There are {fjeqwiofqweji} closed lockers.");fjeqwiofqweji=0;
+for fqwjiofqwe in jifowqjfiqe:
+    if fqwjiofqwe == "0":
+        fjeqwiofqweji+=1;
+print(f"There are {fjeqwiofqweji} open lockers.");
